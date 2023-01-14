@@ -1,2 +1,2 @@
 import 'package:flutter/material.dart';
-import 'package:reminders/models/group.dart';
+import 'package:flutterreminder/models/group.dart';
