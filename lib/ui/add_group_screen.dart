@@ -8,6 +8,12 @@ class AddGroupScreen extends StatefulWidget {
 }
 
 class _AddGroupScreenState extends State<AddGroupScreen> {
+  Color selectedColor = Colors.primaries.first;
+  final textController = TextEditingController();
+  String? errorMessage;
+
+  void _onSave() {}
+
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
