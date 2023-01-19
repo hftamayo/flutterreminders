@@ -1,3 +1,4 @@
+import 'package:objectbox/objectbox.dart';
 import 'package:flutterreminder/models/task.dart';
 
 @Entity()
