@@ -1,7 +1,13 @@
+import 'package:flutterreminder/models/task.dart';
+
+@Entity()
 class Group {
   int id = 0;
   String name;
   int color;
+
+  @Backlink()
+  final tasks = ToMany<Task>();
 
   Group({
     required this.name,
