@@ -1,3 +1,6 @@
+import 'package:objectbox/objectbox.dart';
+import 'package:flutterreminder/models/group.dart';
+
 @Entity()
 class Task {
   int id = 0;
