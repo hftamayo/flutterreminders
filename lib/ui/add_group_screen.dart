@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterreminder/models/group.dart';
 
 class AddGroupScreen extends StatefulWidget {
   const AddGroupScreen({super.key});
@@ -12,7 +13,21 @@ class _AddGroupScreenState extends State<AddGroupScreen> {
   final textController = TextEditingController();
   String? errorMessage;
 
-  void _onSave() {}
+  void _onSave() {
+    final name = textController.text.trim();
+    if (name.isEmpty) {
+      setState(() {
+        errorMessage = 'Name is required';
+      });
+      return;
+    } else {
+      setState(() {
+        errorMessage = null;
+      });
+    }
+    final result = Group(name: name, color: selectedColor.value);
+    Navigator.of(context).pop(result);
+  }
 
   @override
   Widget build(BuildContext context) {
