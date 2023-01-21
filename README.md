@@ -1,16 +1,10 @@
 # flutterreminder
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This...
 
-This project is a starting point for a Flutter application.
+## References
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Diegoveloper Youtube Channel](https://www.youtube.com/watch?v=osUq6B92-BY)
+- [Application Github repo](https://github.com/diegoveloper/flutter_todo_list)
